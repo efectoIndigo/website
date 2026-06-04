@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>INDIGO</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&display=swap" rel="stylesheet">
+  
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #11161d;
+      color: #e5e5e5;
+      font-family: 'Montserrat', sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+      max-width: 600px;
+      width: 100%;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    .logo-container {
+      margin-bottom: 40px;
+    }
+
+    .monogram {
+      width: 80px;
+      height: auto;
+      opacity: 0.85;
+    }
+
+    h1 {
+      font-size: 32pt;
+      font-weight: 200;
+      text-transform: uppercase;
+      color: #b16c47;
+      margin-bottom: 25px;
+      line-height: 1.2;
+    }
+
+    .separator {
+      width: 40px;
+      height: 1px;
+      background-color: #b16c47;
+      margin: 0 auto 30px auto;
+    }
+
+    p {
+      font-size: 11pt;
+      font-weight: 300;
+      letter-spacing: 2px;
+      line-height: 1.8;
+      color: #a0a5ad;
+      text-transform: uppercase;
+      margin-bottom: 45px;
+    }
+
+    .small-text {
+      font-size: 8.5pt;
+      color: #717781;
+      letter-spacing: 3px;
+      display: block;
+      margin-top: 10px;
+    }
+
+    .contact-link {
+      font-size: 9pt;
+      font-weight: 400;
+      letter-spacing: 1.5px;
+      color: #b16c47;
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: color 0.3s ease;
+    }
+
+    .contact-link:hover {
+      color: #ffffff;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="logo-container">
+      <img src="./Logos/Monograma_Light.png" alt="INDIGO Monograma" class="monogram">
+    </div>
+
+    <h1>I&nbsp;N&nbsp;D&nbsp;I&nbsp;G&nbsp;O</h1>
+    
+    <div class="separator"></div>
+
+    <p>Abre tu mente.<span class="small-text">Muy pronto</span></p>
+
+    <a href="mailto:info@efectoindigo.com" class="contact-link">Contacto</a>
+  </div>
+
+</body>
+</html>
